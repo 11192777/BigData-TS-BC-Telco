@@ -1,6 +1,7 @@
 W:\IDEA\TelcoProject\Consumer\src\main\java\pers\qingyu\consumer\HBaseDao.java
 W:\IDEA\TelcoProject\Consumer\src\main\java\pers\qingyu\util\HBaseFilterUtil.java
 W:\IDEA\TelcoProject\Consumer\src\main\java\pers\qingyu\util\PropertityUtil.java
+W:\IDEA\TelcoProject\Consumer\src\main\java\pers\qingyu\util\ScanUtil.java
 W:\IDEA\TelcoProject\Consumer\src\main\java\pers\qingyu\util\HBaseUtil.java
 W:\IDEA\TelcoProject\Consumer\src\main\java\pers\qingyu\constant\Constant.java
 W:\IDEA\TelcoProject\Consumer\src\main\java\pers\qingyu\coprocessor\MyCoprocessor.java

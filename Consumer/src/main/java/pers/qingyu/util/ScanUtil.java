@@ -30,7 +30,7 @@ public class ScanUtil {
 		stopPoint.setTime(stopDate);
 		stopPoint.add(Calendar.MONTH, 1);
 
-		while (startPoint.getTimeInMillis() < stopPoint.getTimeInMillis()){
+		while (startPoint.getTimeInMillis() < stopPoint.getTimeInMillis()) {
 
 			String[] str = new String[2];
 
@@ -38,13 +38,14 @@ public class ScanUtil {
 			str[0] = String.format("%02d_%s_%s", startRowHash, phoneNum, sf.format(startPoint.getTime()));
 			startPoint.add(Calendar.MONTH, 1);
 			int stopRowHash = HBaseUtil.getRowHash(Integer.valueOf(PropertityUtil.getProperties().getProperty("hbase.regions")), phoneNum, sf.format(startPoint.getTime()));
-			str[1] = String.format("%02d_%s_%s", stopRowHash, phoneNum, sf.format(startPoint.getTime()));
-
+			String[] temp = str[0].split("-");
+			str[1] = String.format("%s-%02d", temp[0], Integer.valueOf(temp[1]) + 1);
 			list.add(str);
 		}
 
 		return list;
 	}
+
 
 	public static void main(String[] args) throws IOException, ParseException {
 		List<String[]> rows = getStartStopRowKey("16480981069", "2017-12", "2020-6");

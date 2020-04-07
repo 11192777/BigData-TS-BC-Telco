@@ -4,8 +4,8 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import pers.qingyu.app.base.BaseDemension;
 
-import javax.ws.rs.GET;
 import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
