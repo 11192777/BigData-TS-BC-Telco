@@ -14,15 +14,11 @@ import java.io.IOException;
 @NoArgsConstructor
 @Getter
 @Setter
-public class DateDemension extends BaseDemension{
+public class DateDemension extends BaseDemension {
 	private String year;
 	private String month;
 	private String day;
 
-	@Override
-	public String toString() {
-		return year + "\t" + month + "\t" + day;
-	}
 
 	@Override
 	public int compareTo(Object o) {
@@ -32,7 +28,7 @@ public class DateDemension extends BaseDemension{
 		if (result == 0) {
 			result = this.month.compareTo(another.month);
 			if (result == 0) {
-				return  =this.day.compareTo(another.day);
+				result = this.day.compareTo(another.day);
 			}
 		}
 
@@ -53,4 +49,11 @@ public class DateDemension extends BaseDemension{
 		this.month = dataInput.readUTF();
 		this.day = dataInput.readUTF();
 	}
+
+	@Override
+	public String toString() {
+		return year + "\t" + month + "\t" + day;
+	}
+
+
 }
