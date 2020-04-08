@@ -51,7 +51,7 @@ public class CountDurationRunner implements Tool{
         Connection connection = null;
         Admin admin = null;
         try {
-            String tableName = "ns_ct:calllog";
+            String tableName = "telco:logs";
             connection = ConnectionFactory.createConnection(job.getConfiguration());
             admin = connection.getAdmin();
             if(!admin.tableExists(TableName.valueOf(tableName))) throw new RuntimeException("无法找到目标表.");

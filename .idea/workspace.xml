@@ -1,30 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cd4ec54-5bb7-4946-942a-7ce6c3cebf92" name="Default Changelist" comment="First commit.">
-      <change afterPath="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/base/BaseValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/convertor/DinmesionConvertor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/format/MySqlOutputFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/kvbean/CommonDemension.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/kvbean/CountDurationValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/util/JDBCUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/util/LRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4cd4ec54-5bb7-4946-942a-7ce6c3cebf92" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Analysis/src/main/resources/core-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/src/main/resources/hbase-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/src/main/resources/hdfs-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/target/Analysis-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/target/Analysis-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/target/classes/META-INF/Analysis.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/target/classes/core-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/target/classes/hbase-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/target/classes/hdfs-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/target/classes/kafka.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/target/classes/pers/qingyu/converter/DimensionConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/target/classes/pers/qingyu/converter/DimensionConverterImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/target/classes/pers/qingyu/kv/base/BaseDimension.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/target/classes/pers/qingyu/kv/base/BaseValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/target/classes/pers/qingyu/kv/key/ComDimension.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/target/classes/pers/qingyu/kv/key/ContactDimension.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/target/classes/pers/qingyu/kv/key/DateDimension.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/target/classes/pers/qingyu/kv/value/CountDurationValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/target/classes/pers/qingyu/mapper/CountDurationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/target/classes/pers/qingyu/outputformat/MysqlOutputFormat$MysqlRecordWriter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/target/classes/pers/qingyu/outputformat/MysqlOutputFormat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/target/classes/pers/qingyu/reducer/CountDurationReducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/target/classes/pers/qingyu/runner/CountDurationRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/target/classes/pers/qingyu/utils/JDBCInstance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/target/classes/pers/qingyu/utils/JDBCUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/target/classes/pers/qingyu/utils/LRUCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consumer/target/Consumer-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-dir/hadoop-4426750332404086171" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/driver/CountDruationReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/driver/CountDruationReducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/driver/CountDurationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/driver/CountDurationMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/kvbean/BaseDemension.java" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/base/BaseDemension.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/kvbean/ContantDemension.java" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/kvbean/ContactDemension.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/kvbean/DateDemension.java" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/kvbean/DateDemension.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/src/main/java/pers/qingyu/util/ScanUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/src/main/java/pers/qingyu/util/ScanUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/src/test/java/ScanTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/src/test/java/ScanTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analysis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/outputformat/MysqlOutputFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/outputformat/MysqlOutputFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/runner/CountDurationRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/runner/CountDurationRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Consumer/target/Consumer-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/target/Consumer-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/target/classes/pers/qingyu/util/ScanUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/target/classes/pers/qingyu/util/ScanUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/target/test-classes/ScanTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/target/test-classes/ScanTest2.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,35 +75,96 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/convertor/DinmesionConvertor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.27/mysql-connector-java-5.1.27.jar!/com/mysql/jdbc/util/LRUCache.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/util/LRUCache.java">
+        <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/runner/CountDurationRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+            <state relative-caret-position="392">
+              <caret line="45" column="31" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/reducer/CountDurationReducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="9" column="72" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/outputformat/MysqlOutputFormat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1365">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Consumer/src/main/java/pers/qingyu/consumer/HBaseConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="477">
+              <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#716#732#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Analysis/src/main/resources/hbase-site.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Analysis/src/main/resources/core-site.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-84">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Analysis/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1086">
+              <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Consumer/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="87" column="12" selection-start-line="47" selection-start-column="3" selection-end-line="87" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Analysis/src/main/resources/hdfs-site.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -114,9 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Producer/src/main/java/pers/qingyu/ProduceLog.java" />
-        <option value="$PROJECT_DIR$/Consumer/src/main/resources/core-site.xml" />
-        <option value="$PROJECT_DIR$/Consumer/src/main/java/PropertityUtil.java" />
         <option value="$PROJECT_DIR$/Consumer/src/main/java/pers/qingyu/PropertityUtil.java" />
         <option value="$PROJECT_DIR$/Consumer/src/main/java/pers/qingyu/HBaseConsumer.java" />
         <option value="$PROJECT_DIR$/Consumer/src/main/java/pers/qingyu/constant/Constant.java" />
@@ -134,7 +208,6 @@
         <option value="$PROJECT_DIR$/Consumer/pom.xml" />
         <option value="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/driver/CountDurationApp.java" />
         <option value="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/kvbean/BaseDemension.java" />
-        <option value="$PROJECT_DIR$/Analysis/pom.xml" />
         <option value="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/kvbean/ContantDemension.java" />
         <option value="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/kvbean/DateDimension.java" />
         <option value="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/kvbean/DateDemension.java" />
@@ -145,10 +218,30 @@
         <option value="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/kvbean/BaseValue.java" />
         <option value="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/kvbean/CountDurationValue.java" />
         <option value="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/driver/CountDruationReducer.java" />
-        <option value="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/util/JDBCUtil.java" />
-        <option value="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/format/MySqlOutputFormat.java" />
-        <option value="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/convertor/DinmesionConvertor.java" />
         <option value="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/util/LRUCache.java" />
+        <option value="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/format/MySqlOutputFormat.java" />
+        <option value="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/util/JDBCUtil.java" />
+        <option value="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/convertor/DinmesionConvertor.java" />
+        <option value="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/convertor/BaseDimension.java" />
+        <option value="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/kvbean/ContactDimension.java" />
+        <option value="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/format/MysqlOutPutFormat.java" />
+        <option value="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/kvbean/CommDimension.java" />
+        <option value="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/converter/DimensionConverter.java" />
+        <option value="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/utils/JDBCUtil.java" />
+        <option value="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/reducer/CountDurationReducer.java" />
+        <option value="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/mapper/CountDurationMapper.java" />
+        <option value="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/kv/value/CountDurationValue.java" />
+        <option value="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/kv/key/ComDimension.java" />
+        <option value="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/kv/key/ContactDimension.java" />
+        <option value="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/converter/DimensionConverterImpl.java" />
+        <option value="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/kv/base/BaseValue(1).java" />
+        <option value="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/kv/base/BaseValue.java" />
+        <option value="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/kv/key/DateDimension.java" />
+        <option value="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/runner/CountDurationRunner.java" />
+        <option value="$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/outputformat/MysqlOutputFormat.java" />
+        <option value="$PROJECT_DIR$/Analysis/src/main/resources/hdfs-site.xml" />
+        <option value="$PROJECT_DIR$/Analysis/pom.xml" />
+        <option value="$PROJECT_DIR$/Analysis/src/main/resources/core-site.xml" />
       </list>
     </option>
   </component>
@@ -174,11 +267,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Analysis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Analysis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
@@ -215,8 +308,8 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="239" />
-    <option name="y" value="70" />
+    <option name="x" value="216" />
+    <option name="y" value="36" />
     <option name="width" value="1686" />
     <option name="height" value="1046" />
   </component>
@@ -227,7 +320,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -268,7 +360,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="qingyu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TelcoProject" type="b2602c69:ProjectViewProjectNode" />
@@ -277,8 +369,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="convertor" type="462c0819:PsiDirectoryNode" />
+              <item name="qingyu" type="462c0819:PsiDirectoryNode" />
+              <item name="outputformat" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TelcoProject" type="b2602c69:ProjectViewProjectNode" />
@@ -287,8 +379,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="format" type="462c0819:PsiDirectoryNode" />
+              <item name="qingyu" type="462c0819:PsiDirectoryNode" />
+              <item name="reducer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TelcoProject" type="b2602c69:ProjectViewProjectNode" />
@@ -297,36 +389,109 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="qingyu" type="462c0819:PsiDirectoryNode" />
+              <item name="runner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TelcoProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TelcoProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TelcoProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TelcoProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TelcoProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TelcoProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TelcoProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TelcoProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TelcoProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TelcoProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TelcoProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TelcoProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TelcoProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TelcoProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qingyu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TelcoProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TelcoProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qingyu" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TelcoProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TelcoProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Analysis/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="W:\IDEA\TelcoProject\Producer\src\main\java\pers\qingyu" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="W:\IDEA\TelcoProject\Consumer\src\main\resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pers.qingyu.app.convertor" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="W:\IDEA\TelcoProject\Producer\src\main\java\pers\qingyu" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="W:\IDEA\TelcoProject\Analysis\src\main\resources" />
+      <recent name="W:\IDEA\TelcoProject\Analysis\src\main\java\pers\qingyu" />
+      <recent name="W:\IDEA\TelcoProject\Analysis\src\main\java\pers\qingyu\app\format" />
+      <recent name="W:\IDEA\TelcoProject\Analysis\src\main\java\pers\qingyu\app\util" />
+      <recent name="W:\IDEA\TelcoProject\Consumer\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -341,7 +506,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JDBCUtil">
+  <component name="RunManager" selected="Application.CountDurationRunner">
+    <configuration name="CountDurationRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pers.qingyu.runner.CountDurationRunner" />
+      <module name="Analysis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pers.qingyu.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HBaseConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pers.qingyu.consumer.HBaseConsumer" />
       <module name="Consumer" />
@@ -368,13 +546,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScanTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ScanTest1" />
-      <module name="Consumer" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ScanTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ScanTest2" />
       <module name="Consumer" />
@@ -397,11 +568,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JDBCUtil" />
+        <item itemvalue="Application.CountDurationRunner" />
         <item itemvalue="Application.HBaseConsumer" />
+        <item itemvalue="Application.JDBCUtil" />
         <item itemvalue="Application.ScanTest2" />
         <item itemvalue="Application.ScanUtil" />
-        <item itemvalue="Application.ScanTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -430,7 +601,8 @@
       <workItem from="1586224627651" duration="3152000" />
       <workItem from="1586231480717" duration="1922000" />
       <workItem from="1586233458646" duration="6937000" />
-      <workItem from="1586246567808" duration="4684000" />
+      <workItem from="1586246567808" duration="5103000" />
+      <workItem from="1586313979322" duration="8617000" />
     </task>
     <task id="LOCAL-00001" summary="First commit.">
       <created>1586071942447</created>
@@ -460,11 +632,25 @@
       <option name="project" value="LOCAL" />
       <updated>1586241480586</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add some methods that insert data to mysql.">
+      <created>1586253157331</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586253157331</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2020-04-08 12:10&#10;Complete this project.">
+      <created>1586319049575</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586319049576</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57148000" />
+    <option name="totallyTimeSpent" value="66184000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -476,11 +662,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="239" y="70" width="1686" height="1046" extended-state="0" />
-    <editor active="true" />
+    <frame x="216" y="36" width="1686" height="1046" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6337115" visible="true" weight="0.20049201" />
-      <window_info id="Structure" order="1" sideWeight="0.36628848" side_tool="true" visible="true" weight="0.20049201" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6324627" visible="true" weight="0.20295203" />
+      <window_info id="Structure" order="1" sideWeight="0.36753732" side_tool="true" visible="true" weight="0.20295203" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -488,7 +673,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5505762" side_tool="true" weight="0.15831557" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.3234649" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.4122807" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -503,7 +688,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.14514145" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.1519546" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.17527676" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
@@ -519,115 +704,15 @@
     <MESSAGE value="First commit." />
     <MESSAGE value="analysis commit." />
     <MESSAGE value="Update DateDemension error." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update DateDemension error." />
+    <MESSAGE value="Add some methods that insert data to mysql." />
+    <MESSAGE value="2020-04-08 12:10&#10;Complete this project." />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-04-08 12:10&#10;Complete this project." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Producer/src/main/java/pers/qingyu/ProduceLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_172/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="52" column="6" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Consumer/src/main/java/pers/qingyu/constant/Constant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Consumer/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Consumer/src/main/resources/hdfs-site.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Consumer/src/main/resources/hbase-site.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Consumer/src/main/resources/core-site.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-server/1.3.1/hbase-server-1.3.1.jar!/org/apache/hadoop/hbase/coprocessor/BaseRegionServerObserver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-client/1.3.1/hbase-client-1.3.1.jar!/org/apache/hadoop/hbase/Coprocessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Consumer/src/main/java/pers/qingyu/coprocessor/MyCoprocessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Consumer/src/main/resources/kafka.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_172/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59829">
-          <caret line="2938" column="25" selection-start-line="2938" selection-start-column="25" selection-end-line="2938" selection-end-column="25" />
-          <folding>
-            <element signature="e#115588#115589#0" expanded="true" />
-            <element signature="e#115658#115659#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Consumer/src/test/java/ScanTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Consumer/src/main/java/pers/qingyu/consumer/HBaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="732">
-          <caret line="95" column="27" lean-forward="true" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Consumer/src/main/java/pers/qingyu/util/PropertityUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -678,24 +763,7 @@
     <entry file="file://$PROJECT_DIR$/Producer/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1132">
-          <caret line="57" column="39" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pers.qingyu/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/Consumer/src/main/java/pers/qingyu/consumer/HBaseConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/driver/CountDurationApp.java" />
     <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/driver/CountDurationDriver.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -712,37 +780,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/kvbean/CommonDemension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analysis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/kvbean/DateDemension.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/kvbean/ContactDemension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -756,13 +797,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/base/BaseDemension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -812,40 +846,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/util/JDBCUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/format/MySqlOutputFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="57" column="41" lean-forward="true" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.27/mysql-connector-java-5.1.27.jar!/com/mysql/jdbc/util/LRUCache.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/convertor/DinmesionConvertor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -853,6 +857,255 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/util/JDBCUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/base/BaseDemension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/convertor/BaseDimension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/kvbean/ContactDimension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/format/MysqlOutPutFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="17" column="65" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/kvbean/CommDimension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/app/convertor/DinmesionConvertor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="68" column="65" selection-start-line="68" selection-start-column="49" selection-end-line="68" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/utils/JDBCInstance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/converter/DimensionConverterImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/converter/DimensionConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/utils/LRUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/utils/JDBCUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/kv/base/BaseValue(1).java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/kv/value/CountDurationValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/kv/base/BaseDimension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/kv/base/BaseValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/kv/key/ComDimension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="36" column="75" selection-start-line="36" selection-start-column="75" selection-end-line="36" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/kv/key/ContactDimension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/kv/key/DateDimension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/mapper/CountDurationMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="87" column="12" selection-start-line="47" selection-start-column="3" selection-end-line="87" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1086">
+          <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/reducer/CountDurationReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="9" column="72" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/outputformat/MysqlOutputFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1365">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Consumer/src/main/java/pers/qingyu/consumer/HBaseConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#716#732#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/src/main/resources/hbase-site.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/src/main/resources/kafka.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/src/main/resources/hdfs-site.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/src/main/resources/core-site.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/src/main/java/pers/qingyu/runner/CountDurationRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

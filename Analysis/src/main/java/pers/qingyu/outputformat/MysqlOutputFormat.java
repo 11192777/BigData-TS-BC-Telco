@@ -1,14 +1,14 @@
 package pers.qingyu.outputformat;
 
-import converter.DimensionConverterImpl;
-import kv.key.ComDimension;
-import kv.value.CountDurationValue;
-import utils.JDBCInstance;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.mapreduce.*;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
-import utils.JDBCUtil;
+import pers.qingyu.converter.DimensionConverterImpl;
+import pers.qingyu.kv.key.ComDimension;
+import pers.qingyu.kv.value.CountDurationValue;
+import pers.qingyu.utils.JDBCInstance;
+import pers.qingyu.utils.JDBCUtil;
 
 import java.io.IOException;
 import java.sql.Connection;
